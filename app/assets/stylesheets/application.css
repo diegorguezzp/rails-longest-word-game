@@ -13,3 +13,25 @@
  *= require_tree .
  *= require_self
  */
+
+ .letter {
+  width: 20px;
+  background-color: rgb(95, 95, 250);
+  padding: 12px;
+  color: white;
+  margin: 6px;
+  display: inline;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+  margin-left: 30px;
+}
+
+.sty {
+  margin-top: 40px;
+  margin-left: 30px;
+}
+
+
+.form {
+  margin-top: 40px;
+  margin-left: 30px;
+}

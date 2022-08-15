@@ -1,0 +1,8 @@
+<h1>Result</h1>
+<% if @found %>
+  <p><strong>Congratulations! </strong><%=@result.join.upcase%> is a valid word</p>
+<% else  %>
+  <p>Sorry but <strong><%=@result.join.upcase%></strong> does not seem to be a valid English word...</p>
+<%end %>
+
+<%= link_to "Play again", new_path%>
